@@ -69,9 +69,9 @@
 
       function getEnvironment() {
         document.getElementById('os').append(liff.getOS()); // liff.getOS() ทำให้เราทราบว่า liff ที่เราเปิดตอนนี้เปิดด้วย device อะไรอยู่ ex. แอนดรอย ios web
-        document.getElementById('Language').append(liff.getLanguage()); // liff.getLanguage() รู้ว่า client นี้ defalt เขาใช้ภาษาอะไร
+        document.getElementById('language').append(liff.getLanguage()); // liff.getLanguage() รู้ว่า client นี้ defalt เขาใช้ภาษาอะไร
         document.getElementById('version').append(liff.getVersion()); // liff.getVersion() เว่อร์ชั่น liff
-        document.getElementById('AccessToken').append(liff.getAccessToken());
+        document.getElementById('accessToken').append(liff.getAccessToken());
         document.getElementById('isInClient').append(liff.isInClient());
         if (liff.isInClient()) {
           // เปิดใน line
